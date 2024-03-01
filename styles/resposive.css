@@ -40,9 +40,16 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .featured-img img{
+        width: 100%;
+    }
+
     .footer p small{
         flex-direction: column;
     }
+
+
 
 }
 
