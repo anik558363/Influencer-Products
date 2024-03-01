@@ -166,3 +166,27 @@ a:hover{
     color: rgba(0, 0, 0, 0.729);
     margin: 15px auto;
 }
+
+/* footer */
+
+/* footer{
+    padding: 15px;
+    margin-top: 25px;
+    
+} */
+.footer p small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: antiquewhite;
+    padding: 20px;
+   
+}
+
+small span{
+    background-color: antiquewhite;
+}
+small span .fa-gift{
+    background-color: antiquewhite;
+}
