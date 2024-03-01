@@ -20,12 +20,23 @@
         text-align: center;
     }
     .banner-img-container img{
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
     }
     .common-btn{
        margin: 0 auto;
     }
+
+    .e-shop-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 0 20px;
+    }
+    .popular-collection-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 
 }
 
@@ -46,4 +57,16 @@
     .common-btn{
         margin: 0 auto;
      }
+     .e-shop-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+        padding: 0 20px;
+    }
+    .popular-collection-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-btn{
+        width: 50%;
+    }
 }
