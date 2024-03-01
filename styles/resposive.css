@@ -36,6 +36,10 @@
     .popular-collection-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .featured-container{
+        flex-direction: column;
+        text-align: center;
+    }
 
 
 }
@@ -68,5 +72,9 @@
     }
     .card-btn{
         width: 50%;
+    }
+    .featured-container{
+        flex-direction: column;
+        text-align: center;
     }
 }

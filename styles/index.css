@@ -145,3 +145,24 @@ a:hover{
     color: rgba(0, 0, 0, 0.729);
 }
 
+
+/* Featured section */
+
+.featured-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 50px auto;
+}
+
+
+.featured-container .featured-text h1{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.729);
+}
+.featured-container .featured-text p{
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.729);
+    margin: 15px auto;
+}
