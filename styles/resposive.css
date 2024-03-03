@@ -23,6 +23,18 @@
         width: 80%;
         margin: 0 auto;
     }
+
+
+    .banner-text-container h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .featured-container .featured-text h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
     .common-btn{
        margin: 0 auto;
     }
@@ -86,4 +98,15 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .banner-text-container h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .featured-container .featured-text h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
 }
